@@ -1,0 +1,3 @@
+#!/bin/bash
+
+ls -m  -p -t --ignore='."." and the "..".*' | tr -d ' '
